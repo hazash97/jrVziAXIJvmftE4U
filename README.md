@@ -22,7 +22,7 @@ By training the machine learning model(s) on available data (i.e. past survey da
 * The process began by reviewing the available data, ensuring that there were no missing or erroneous data entries. No such issues were found.
 * Next, a Pearson correlation matrix was constructed to identify (1) which attributes/features among X1 to X6 were meaningfully correlated with the target attribute Y, and (2) which attributes/features were strongly correlated with each other.
 
-![alt text](https://github.com/hazash97/jrVziAXIJvmftE4U/blob/main/correlation.png)
+![alt text](https://github.com/hazash97/jrVziAXIJvmftE4U/blob/main/reports/correlation.png)
 
 > 1. Inspecting the correlations with the target attribute, features X2 ("contents of my order was as I expected") and X4 ("I paid a good price for my order") were found to have a very weak correlation with the target attribute, and thus have poor predictive power. For simplicity at this stage, it has been assumed that no higher-order interactions exist between combinations of attributes, and therefore it is reasonable to eliminate X2 and X4 as features in the model.
 > 2. Inspecting the correlations of each attribute with each other attribute, we find some moderately correlated attributes - such as X1 with X5 (r=0.43) and X1 with X6 (r=0.41). However, these are not sufficiently correlated to warrant immediate elimination or combination. Therefore, the remaining feature set will remain unchanged.
