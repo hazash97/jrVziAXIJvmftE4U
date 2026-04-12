@@ -1,3 +1,5 @@
+> To use this project, first download the _1.0-hja-acme-analysis.ipynb_ file (found in _notebooks_), and add a copy of _ACME-HappinessSurvey2020.xlsx_ (found in _data_) to your local GDrive environment.
+
 # Background
 
 The goal of this machine learning exercise is to predict the satisfaction of customers based on self-reported survey data, which takes the following form:
