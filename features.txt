@@ -1,0 +1,6 @@
+#Using new data sheet with X2 and X4 removed
+
+new_data = getData('Data')
+
+y_data = np.array(new_data['Y'])
+X_data = np.array(new_data.iloc[:,1:])
